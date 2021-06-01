@@ -1,0 +1,166 @@
+*{
+   padding:0;
+   margin:0;
+}
+
+body{
+    background:gainsboro;
+}
+
+
+#top{
+   font-size:40px;
+   padding-left:1%;
+   padding-top:1%;
+   position:fixed;
+   display:block;
+   width:100%;
+   top:0%;
+   background:gainsboro;
+}
+
+#image img{
+   float:left;
+   height:500px;
+   margin-left:15%;
+   margin-top:11%;
+}
+ 
+#right{
+    float:left;
+    margin-top:11%;
+    padding-top:0%;
+    margin-left:5%;
+    padding-right:3%;
+   
+    
+}
+
+#tagline{
+   font-size:35px;
+    font-family:Oswald, sans-serif;
+   line-height:1.2;
+}
+
+#details{
+   font-size:20px;
+   font-family:Merriweather, serif;
+   line-height:2; 
+   font-weight:700;
+   word-wrap:break-word;
+}
+
+#right hr{
+   width:100%;
+   height:2px;
+   background:black;
+}
+
+#details1{
+   font-size:20px;
+   font-family:Tahoma;
+  
+}
+
+button{
+   font-size:17px;
+   padding:8px 25px;
+    font-family:Oswald, sans-serif;
+   background:gainsboro;
+   border-style: solid;
+   
+    letter-spacing: 2px;
+    font-weight: 700;
+    
+   
+
+}
+
+
+button:hover{
+   background:black;
+   color:white;
+}
+
+
+#black{
+
+   margin-top:20%;
+   border:2px black solid;
+   height:12%;
+   background:black;
+   margin-bottom:10%;
+}
+
+@media only screen and (max-width:414px){
+  #image img{
+   float:left;
+   height:400px;
+   margin-left:9%;
+   margin-top:20%;
+}
+
+#right{
+    margin-top:11%;
+    padding-top:0%;
+    margin-left:10%;
+    padding-right:5%;
+   
+    }
+
+button:hover{
+   background:black;
+   color:white;
+}
+
+}
+
+@media only screen and (width:768px){
+ #image img{
+   float:left;
+   height:400px;
+   margin-left:5%;
+   margin-top:20%;
+}
+
+#right{
+    float:left;
+    margin-top:20%;
+    padding-top:0%;
+    margin-left:4%;
+    padding-right:3%;
+    width:50%;
+   
+    }
+}
+
+@media only screen and (width:1024px){
+
+#image img{
+   float:left;
+   height:500px;
+   margin-left:5%;
+   margin-top:20%;
+}
+
+#right{
+    float:left;
+    margin-top:20%;
+    padding-top:0%;
+    margin-left:4%;
+    padding-right:3%;
+    width:50%;
+   
+    }
+}
+
+@media only screen and (width:540px){
+
+  #right{
+    float:left;
+    margin-top:11%;
+    padding-top:0%;
+    margin-left:14%;
+    margin-right:14%;  
+}
+}
